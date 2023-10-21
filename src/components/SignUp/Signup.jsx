@@ -14,6 +14,7 @@ function Signup() {
         axios.post('https://mernbackend-21qk.onrender.com/register', {name, email, password})
         .then(res => {
             navigate('/login')
+            {console.log("sign in successfull!")}
         }).catch(err => console.log(err))
     }
 
