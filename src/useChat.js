@@ -2,7 +2,7 @@ import {useEffect,useRef,useState,UseState} from "react"
 import socketIOClient from 'socket.io-client'
 
 const NEW_CHAT_MESSAGE_EVENT="newChatMessage"
-const SOCKET_SERVER_URL="http://localhost:4000"
+const SOCKET_SERVER_URL="https://chatbackend-2qo9.onrender.com"
 
 const useChat =(roomId)=>{
     const [messages,setMessages] =useState([])
