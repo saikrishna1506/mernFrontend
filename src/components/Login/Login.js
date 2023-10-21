@@ -19,6 +19,7 @@ function Login() {
                 if(res.data.role === "admin") {
                     navigate('/dashboard')
                 } else {
+                    {console.log("login successful!")}
                     navigate('/home')
                 }
             }
