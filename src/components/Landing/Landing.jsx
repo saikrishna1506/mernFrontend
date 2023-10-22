@@ -22,7 +22,7 @@ const Landing = () => {
       <main className="landing-main">
         <div className="landing-content">
           {/* <h1 className="landing-title">LocalChat-Join the Conversation</h1> */}
-          <h1 id="landing-title" class="typing-title">LocalChat-Join the Conversation</h1>
+          <h1 id="landing-title" className="typing-title">LocalChat-Join the Conversation</h1>
 
           <p className="landing-description">Ride the wave of communication with our LocalChat</p>
           {/* <Link to="/" className="landing-cta-button">Explore</Link> */}
